@@ -1,0 +1,6 @@
+[submodule "dependencies/cpddl"]
+	path = dependencies/cpddl
+	url = https://gitlab.com/harshakokel/cpddl.git
+[submodule "dependencies/forbiditerative"]
+	path = dependencies/forbiditerative
+	url = https://github.com/IBM/forbiditerative.git
