@@ -36,8 +36,9 @@ pip install -e .
 ### 2. Setup dependencies
 
 This code makes system calls to the following libraries.
-A. [CPDDL](https://gitlab.com/harshakokel/cpddl.git)
-B. [Forbid Iterative](https://github.com/IBM/forbiditerative.git) Planner
+
+* [CPDDL](https://gitlab.com/harshakokel/cpddl.git) 
+* [Forbid Iterative](https://github.com/IBM/forbiditerative.git) Planner  
 
 
 :exclamation: If you already have CPDDL or a PDDL-based Planner, skip to step 3.
@@ -80,7 +81,7 @@ export FAST_DOWNWARD_PATH=./dependencies/forbiditerative/fast-downward.py
 ```bash
 $ python ./runner.py \
 --domain-file ~/downward-benchmark/blocks.pddl \
---problem-dir ~/downward-benchmark/blocks/domain.pddl \
+--problem-dir ~/downward-benchmark/blocks \
 --use-grounding
 ```
 
@@ -106,10 +107,10 @@ Repository
 If you build on this code or the ideas of this paper, please use the following citation.
 
     @inproceedings{KokelLKSS23,
-     	title={Action Space Reduction for Planning Domains}, 
-	    journal={IJCAI}, 
-	    author={Kokel, Harsha and Lee, Junkyu and Katz, Michael and Srinivas, Kavitha and Sohrabi, Shirin},
-    	year={2023}
+     	title={Action Space Reduction for Planning Domains},
+     	journal={IJCAI},
+     	author={Kokel, Harsha and Lee, Junkyu and Katz, Michael and Srinivas, Kavitha and Sohrabi, Shirin},
+     	year={2023}
     }
 
 ## LICENSE
