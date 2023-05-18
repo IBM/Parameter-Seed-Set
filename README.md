@@ -1,7 +1,7 @@
 # Parameter Seed Set 
 
 
-This repository contains code and supplementary material for [Kokel et al. 2023](#citation).
+This repository contains code and [supplementary material](./supp_material.pdf) for [Kokel et al. 2023](#citation).
 
 > Planning tasks succinctly represent labeled transition systems, with 
 each ground action corresponding to a label. This granularity, however, 
