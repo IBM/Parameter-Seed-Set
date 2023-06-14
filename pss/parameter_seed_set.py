@@ -172,6 +172,6 @@ def find_parameter_seed_sets(pddl_task, lifted_mutex_groups,
     return parameter_seeds, info
 
 
-def get_parameter_seed(domain_file, problem_file, pddl_task, use_count_approximation=False, verbose=False):
+def get_parameter_seed(domain_file, problem_file, pddl_task, verbose=False):
     lifted_mutex_groups = get_LMG_atoms(domain_file, problem_file, verbose=verbose)
-    return find_parameter_seed_sets(pddl_task, lifted_mutex_groups, use_count_approximation=use_count_approximation, verbose=verbose)
+    return find_parameter_seed_sets(pddl_task, lifted_mutex_groups, verbose=verbose)
