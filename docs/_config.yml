@@ -3,4 +3,4 @@ plugins:
 - jekyll-remote-theme 
 
 title: Parameter Seed Set 
-descripion: This repository contains code and supplementary material for Kokel et al. 2023.
+descripion: Planning tasks succinctly represent labeled transition systems, with each ground action corresponding to a label. This granularity, however, is not necessary for solving planning tasks and can be harmful, especially for model-free methods. In this work, we propose automatic approach to reduce the label sets for planning domains. 
