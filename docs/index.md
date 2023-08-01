@@ -7,7 +7,7 @@ slides: ./ActionSpaceReduction_slides.pdf
 pdf: ./ActionSpaceReduction.pdf
 code: https://github.com/IBM/Parameter-Seed-Set
 poster: ./ActionSpaceReduction_poster.pdf
-supp: ../supp_material.pdf
+supp: ./supp_material.pdf
 ---
 
 
