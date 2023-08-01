@@ -2,7 +2,7 @@
 layout: default
 title: Action Space Reduction for Planning Domains
 description: <a href="http://harshakokel.com" target="_blank" style="color:white">Harsha Kokel</a>, Junkyu Lee, Michael Katz, Kavitha Srinivas, and Shirin Sohrabi <br> IBM Research
-video: https://recorder-v3.slideslive.com/?share=84291&s=58ec2409-d7dd-4c41-bdaf-2d44813a5060
+video: https://youtu.be/H4OMk8TUXIQ
 slides: ./ActionSpaceReduction_slides.pdf
 pdf: ./ActionSpaceReduction.pdf
 code: https://github.com/IBM/Parameter-Seed-Set
@@ -55,7 +55,7 @@ However, we know actions $$\texttt{(pick b1 r1 g1)}$$ and $$\texttt{(pick b1 r2 
 ## Results
 
 
-Using our parameter seed set approach to label reduction, results in a **significant reduction of the action space**. Figure a (on the left below), presents the reduction on each PDDL problem instance for $$14$$ IPC domains and Figure b (on the right) on $$7$$ Hard-To-Ground domains. Both axes are log-scaled. Points below the diagonal indicate instances where the reduced label set is smaller than the original one. The distance from the diagonal indicates the significance of the reduction. Gray dashed lines below the diagonal represent the order of magnitude of the reduction. We see a substantial reduction going up to $$2$$ orders of magnitude on IPC problems and up to $$10$$ orders of magnitude on hard-to-ground domains
+Using our parameter seed set approach to label reduction, results in a **significant reduction of the action space**. Figure a (on the left below), presents the reduction on each PDDL problem instance for $$14$$ IPC domains and Figure b (on the right) on $$7$$ Hard-To-Ground domains. Both axes are log-scaled. Points below the diagonal indicate instances where the reduced label set is smaller than the original one. The distance from the diagonal indicates the significance of the reduction. Gray dashed lines below the diagonal represent the order of magnitude of the reduction. We see a substantial reduction; going up to $$2$$ orders of magnitude on IPC problems and up to $$10$$ orders of magnitude on hard-to-ground domains
 
 ![](./images/reduction.png)
 
